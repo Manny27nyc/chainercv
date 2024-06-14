@@ -25,7 +25,7 @@ setup_requires = ['numpy']
 install_requires = [
     'chainer>=6.0',
     # https://github.com/matplotlib/matplotlib/issues/16083
-    'Pillow<7',
+    'Pillow<11',
 ]
 
 ext_data = {
